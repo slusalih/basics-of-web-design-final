@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Titillium+Web:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif;
+}
+
+
+
+
+
+div.logo{
+    height: 90px;
+    margin : -20px;
+    padding: -100px;
+    }
+    a {
+        text-decoration: none;
+        
+        }
+        li{
+        list-style: none;
+        
+        }
+
+
+        header{
+            height: 10vh;
+            line-height: 10vh;
+            padding: 0 20px;
+            }
+            header img{
+                margin: 20px 0;
+                width: 90px;
+                z-index: 20;
+                position: relative;
+                left: 20px;
+            }
+
+            header ul{
+                display: inline-block;
+            }
+            header ul li{
+            display: inline-block;
+            text-transform: uppercase;
+            
+            }
+            header ul li a{
+                color: #000;
+                margin: 0 10px;
+                transition: 0.5s;
+            }
+            header ul li a:hover{
+            
+            color: #7fc142;
+            
+            }
+            header i{
+            margin: 0 20px;
+            
+            }
+            header button{
+                padding: 13px 40px;
+            }
+            header .navlinks span{
+            display: none;
+            
+            }
+            .navlinks{
+                background-color: white;
+                position: relative;
+                top: -45px;
+                z-index: 5;
+            }
+            #menulist{
+                position: relative;
+                right: -1000px;
+               
+                
+            }
+            .primary-btn{
+                background-color: #7fc142;
+   
+            }
+            .item img{
+width: 450px;
+height: 450px;
+right: 60px;
+padding-top: 25px;
+margin-left: 18px;
+
+            }

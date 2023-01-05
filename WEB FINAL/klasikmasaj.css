@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Titillium+Web:wght@400;700&display=swap');
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+div.logo{
+height: 90px;
+margin : -20px;
+padding: -100px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+h1,h2{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+    
+}
+a {
+text-decoration: none;
+
+}
+li{
+list-style: none;
+
+}
+.flex{
+    display: flex;
+}
+.flex a{
+color: #fff;
+
+}
+
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+border: none;
+background: none;
+outline: none;
+transition:  0.5s;
+cursor: pointer;
+}
+.primary-btn{
+padding: 15px 40px;
+background:#7fc142 ;
+font-weight: bold;
+color: white;
+}
+.secondary-btn{
+    padding: 15px 40px;
+    background: none;
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+    }
+.conteiner{
+max-width: 85%;
+margin:auto
+
+}
+header{
+height: 10vh;
+line-height: 10vh;
+padding: 0 20px;
+}
+header img{
+    margin: 20px 0;
+    width: 90px;
+}
+header ul{
+    display: inline-block;
+}
+header ul li{
+display: inline-block;
+text-transform: uppercase;
+
+}
+header ul li a{
+    color: #000;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+header ul li a:hover{
+
+color: #7fc142;
+
+}
+header i{
+margin: 0 20px;
+
+}
+header button{
+    padding: 13px 40px;
+}
+header .navlinks span{
+display: none;
+
+}
+.item img{
+    width: 820px;
+    height: 500px;
+    right: 60px;
+    padding-top: 25px;
+   
+    margin: 10px;
+    padding: -50px;
+    margin-left: 100px;
+    
+                }

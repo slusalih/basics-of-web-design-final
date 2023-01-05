@@ -1,0 +1,142 @@
+body{
+}
+.navlinks li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.kayitform{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  }
+  .kayitform li{
+    color: #7fc142;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    list-style-type:none;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 90px;
+    margin : -20px;
+    padding: -100px;
+    }
+    a {
+        text-decoration: none;
+        
+        }
+        li{
+        list-style: none;
+        
+        }
+
+
+        header{
+            height: 10vh;
+            line-height: 10vh;
+            padding: 0 20px;
+            }
+            header img{
+                margin: 20px 0;
+                width: 90px;
+                z-index: 20;
+                position: relative;
+                left: 20px;
+            }
+            header ul{
+                display: inline-block;
+            }
+            header ul li{
+            display: inline-block;
+            text-transform: uppercase;
+            
+            }
+            header ul li a{
+                color: #000;
+                margin: 0 10px;
+                transition: 0.5s;
+            }
+            header ul li a:hover{
+            
+            color: #7fc142;
+            
+            }
+            header i{
+            margin: 0 20px;
+            
+            }
+            header button{
+                padding: 13px 40px;
+            }
+            header .navlinks span{
+            display: none;
+            
+            }
+            .navlinks{
+                width: 100%;
+                background-color: white;
+                height: 92px;
+                position: absolute;
+                right: 0%;
+                top: 0px;
+                z-index: 5;
+            }
+            #menulist{
+                position: relative;
+                right: -1000px;
+               
+                
+            }
+            .primary-btn{
+                background-color: #7fc142;
+   
+            }
+            #item{
+background-image: url(images/banner-1.png);
+width: 100px;
+
+            }
+            .item{
+
+                color: white;
+            }
+            .sag .button{
+                display: inline-block;
+                margin-top: 12px;
+            }
+            .button input{
+                font-size: 18px;
+                outline: none;
+                border: none;
+                padding: 8px 16px;
+                border-radius: 6px;
+                background: #7fc142;
+              
+                transition: all 0.3s ease;
+                margin: 615px;
+                margin-left: 880px;
+            }
+            .button input:hover{
+                background: #7fc142;
+            }
+                
